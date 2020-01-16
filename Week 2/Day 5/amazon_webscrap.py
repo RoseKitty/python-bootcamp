@@ -24,11 +24,12 @@ price_span = str(soup.find(id="priceblock_saleprice")) #converts into a str type
 price = ""
 for char in price_span:
 	#assume price in usd
-#	if char == "1":
-#		price += char
-#	elif char == "2":
-#		price += char
-#if it's a digit, = 0-9
+	#	if char == "1":
+	#		price += char
+	#	elif char == "2":
+	#		price += char
+	#this is the long way of doing searching
+	#if it's a digit, = 0-9
 	if char.isdigit() is True:
 		price += char #adds to end of string
 	if char == ".":
@@ -43,4 +44,4 @@ else:
 	print(f"Too expensive! Get a job! >..<''")
 
 
-#time.sleep(86400)
+#time.sleep(86400) #one day
