@@ -1,3 +1,5 @@
+#HASHING IS FUN~~
+
 import hashlib
 import time
 #make a login system
