@@ -5,6 +5,9 @@
 #abuse:
 # since lists are in order, and limit is 5
 #can hardcode a little
+#		note:
+# I was good... T..T!!! 
+
 def adding_stuff(lista):
 	count_up = 0
 	count_down = 4 
